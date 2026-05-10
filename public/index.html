@@ -9,8 +9,8 @@
         content="StructIQ provides intelligent structural solutions for modern engineering challenges.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=4">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Space+Grotesk:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=18">
     <link rel="icon" type="image/png" href="images/logo.png">
 </head>
 
@@ -18,7 +18,9 @@
     <header>
         <nav>
             <div class="logo">
-                <img src="images/logo.png" alt="StructIQ" class="logo-img">
+                <a href="/" style="text-decoration: none;">
+                    <span class="logo-text">STRUCT<span class="logo-iq">IQ</span></span>
+                </a>
             </div>
             <ul class="nav-links">
                 <li><a href="#features">Features</a></li>
@@ -35,16 +37,22 @@
                 <p>Advanced structural analysis and design optimization for the next generation of engineering.</p>
                 <div class="hero-buttons">
                     <button id="learn-more">Learn More</button>
-                    <button id="demo" class="secondary">View Demo</button>
+                    <a href="https://structural-optimizer.replit.app" target="_blank" rel="noopener noreferrer"
+                        style="text-decoration: none;">
+                        <button id="demo" class="secondary">View Demo</button>
+                    </a>
                 </div>
             </div>
-            <div class="hero-visual">
-                <img src="images/logo.png" alt="StructIQ Logo" class="hero-logo">
+            <div class="hero-visual" style="flex-direction: column; gap: 1rem;">
+                <div class="hero-logo-wrapper">
+                    <img src="images/logo.png" alt="StructIQ Icon" class="hero-logo">
+                </div>
+                <div class="hero-logo-text">STRUCT<span class="logo-iq">IQ</span></div>
             </div>
         </section>
 
         <section id="features" class="features">
-            <h2>Why Choose StructIQ?</h2>
+            <h2>Why Choose <span class="logo-text" style="font-size: inherit; letter-spacing: inherit;">STRUCT<span class="logo-iq">IQ</span></span>?</h2>
             <div class="feature-grid">
                 <div class="feature-card">
                     <h3>Carbon vs Cost Optimization</h3>
@@ -89,7 +97,7 @@
                                     <line x1="12" y1="8" x2="12.01" y2="8"></line>
                                 </svg>
                             </div>
-                            <span>StructIQ</span>
+                            <span><span class="logo-text" style="font-size: inherit; letter-spacing: inherit;">STRUCT<span class="logo-iq">IQ</span></span></span>
                         </div>
                     </div>
                 </div>
@@ -117,6 +125,46 @@
                         <div class="reg-standards">
                             <span class="reg-tag">SIA 390/1 (Swiss)</span>
                             <span class="reg-tag">Toronto Green Standard</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-container">
+                <div class="about-content">
+                    <h2>About <span class="logo-text" style="font-size: inherit; letter-spacing: inherit;">STRUCT<span class="logo-iq">IQ</span></span></h2>
+                    <p class="about-mission">
+                        We are not a design software but a decision-making plug-in that helps you optimize for both cost
+                        and carbon in your project at 'early stage' design. This reduces both time and software needed
+                        in to one automated BIM workflow.
+                    </p>
+                </div>
+                <div class="team-section">
+                    <h3>Meet the Founders</h3>
+                    <div class="team-grid">
+                        <div class="team-card">
+                            <div class="member-avatar">
+                                <img src="images/somerset.jpeg" alt="Somerset Jarvis" class="founder-img">
+                            </div>
+                            <div class="member-info">
+                                <h4>Somerset</h4>
+                                <span class="role">Founder</span>
+                                <p>MBA and Visionary structural engineer driving the integration of sustainability and
+                                    cost-efficiency.</p>
+                            </div>
+                        </div>
+                        <div class="team-card">
+                            <div class="member-avatar">
+                                <img src="images/napon.jpg" alt="Napon Sainamthip" class="founder-img">
+                            </div>
+                            <div class="member-info">
+                                <h4>Napon</h4>
+                                <span class="role">Co-Founder</span>
+                                <p>MBA and Electrical Engineer leveraging a background in the cement industry to lead
+                                    finance and strategy.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
