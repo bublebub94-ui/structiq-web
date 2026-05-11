@@ -799,6 +799,7 @@ footer {
     z-index: 1;
     transition: all 0.4s ease;
     overflow: hidden;
+    -webkit-mask-image: -webkit-radial-gradient(white, black);
 }
 
 .member-avatar img {
